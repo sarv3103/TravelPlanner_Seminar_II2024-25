@@ -14,8 +14,8 @@ class RazorpayService {
         // $keySecret = 'thisisatestkey'; // Standard test secret
         
         // LIVE MODE - Use these for real payments
-        $keyId = 'rzp_live_2JdrplZN9MSywf'; // Live Key ID
-        $keySecret = '8JHRkWgt4C286TQoNZErbmdK'; // Live Key Secret
+        $keyId = ''; // Live Key ID
+        $keySecret = ''; // Live Key Secret
         
         $this->api = new Api($keyId, $keySecret);
     }
@@ -99,6 +99,6 @@ class RazorpayService {
 // Global variables for direct access (used by verify_payment.php)
 // $key_id = 'rzp_test_1DP5mmOlF5G5ag'; // Test Key ID
 // $key_secret = 'thisisatestkey'; // Test Key Secret
-$key_id = 'rzp_live_2JdrplZN9MSywf'; // Live Key ID
-$key_secret = '8JHRkWgt4C286TQoNZErbmdK'; // Live Key Secret
+$key_id = '; // Live Key ID
+$key_secret = '; // Live Key Secret
 ?> 
